@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1416px" height="403px" viewBox="0 0 1416 403" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>website</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path-1-Copy" stroke="#000000" stroke-width="3" points="-58 237.3125 166.191406 230.101562 176.613281 239.4375 175.570313 193.277344 187.910156 151.105469 197.898437 191.402344 197.855469 200.824219 204.023438 200.824219 204.023438 176.246094 208.195312 154.265625 215.792969 170.769531 222.394531 122 231.46875 176.414062 236.636719 165.035156 238.027344 177.234375 238.027344 190.742188 256.785156 190.4375 256.785156 173.804688 261.605469 153.085938 266.121094 174.761719 266.121094 187.835938 317.800781 187.835938 325.09375 212.457031 345.335938 220.140625 348.421875 227.828125 369.484375 227.4375 379.601562 242.765625"></polyline>
+        <path d="M380,242.234375 L1028.53125,242.234375 L1027.74292,274.208984 C1027.74292,274.208984 1028.88914,273.747314 1031.97949,273.747314 C1034.69092,273.747314 1036.33008,274.292969 1036.33008,274.292969 L1036.33008,279.287109 L1074.84766,275.208984 L1074.84766,270.666016 C1074.84766,270.666016 1076.99121,267.671875 1083.42383,267.671875 C1087.41602,267.671875 1090.47217,268.572754 1091.39648,268.929688 L1091.39648,274.208984 L1134.8457,265.392578 L1172.79492,270.060547 L1172.79492,264.912109 C1172.79492,264.912109 1179.35493,263.500377 1182.50977,263.970955 C1185.52225,264.420299 1191.29688,267.671875 1191.29688,267.671875 L1191.29688,273.080078 L1235.02539,276.703125 L1235.02539,271.6875 C1235.02539,271.6875 1238.46387,269.959961 1243.64771,270.312988 C1248.83154,270.666016 1252.46289,274.208984 1252.46289,274.208984 L1251.35742,228 L1782.02344,242.234375" id="Path-3-Copy" stroke="#000000" stroke-width="3"></path>
+        <text id="3.—4.-června-2016-pa-copy" font-family="EvelethCleanRegular, Eveleth" font-size="26" font-weight="700" fill="#000000">
+            <tspan x="736" y="338">3.—4. června 2016 paralelní polis </tspan>
+        </text>
+        <text id="PHP-PRAGUE-|-CONFERE" font-family="EvelethCleanRegular, Eveleth" font-size="26" font-weight="700" fill="#000000">
+            <tspan x="190" y="338">PHP PRAGUE </tspan>
+            <tspan x="383.414" y="338" font-family="EvelethCleanThin, Eveleth" font-style="condensed" font-weight="300">|</tspan>
+            <tspan x="389.576" y="338"> </tspan>
+            <tspan x="396.882" y="338" font-family="EvelethCleanThin, Eveleth" font-style="condensed" font-weight="300">CONFERENCE</tspan>
+        </text>
+    </g>
+</svg>
