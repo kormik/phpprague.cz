@@ -1,5 +1,8 @@
 # PhpPrague.cz - Sculpin Blog
 
+[![Build Status](https://img.shields.io/travis/PhpPrague/PhpPrague.cz.svg?style=flat-square)](https://travis-ci.org/PhpPrague/PhpPrague.cz)
+
+
 ## How to run it?
 
 ```sh
