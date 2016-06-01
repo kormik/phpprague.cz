@@ -12,4 +12,5 @@ before_script:
     - composer update --prefer-source
 
 script:
-    - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
+    - ./bin/deploy-gh-pages.sh
+    # - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
