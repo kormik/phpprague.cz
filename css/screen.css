@@ -1,3 +1,48 @@
-* {
-    font-size: 14px;
+body, .btn {
+    font-size: 16px;
+}
+
+.headline {
+    font-size: 1.7em;
+    background: #EFEFEF;
+    border: 1px solid #EDEDED;
+    padding: 1em 0;
+    margin: .5em 0;
+}
+
+.program-items {
+    padding-left: 1.1em;
+    line-height: 1.9em;
+}
+
+.program-items small {
+    color: #AAA;
+}
+
+.btn-action {
+    padding: .6em 1em;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+.gold {;
+    color: #DAA520;
+}
+
+.silver {
+    color: #c0c0c0;
+}
+
+.bronze {
+    color: #cd7f32;
+}
+
+.logos img {
+    max-width: 100%;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
