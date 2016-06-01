@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Manual - http://wouterj.nl/2015/02/using-travis-to-build-your-sculpin-blog
+
 # Build settings
 REPOSITORY="https://${GH_TOKEN}@github.com/PhpPrague/PhpPrague.cz.git"
 
