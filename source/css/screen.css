@@ -25,7 +25,7 @@ body, .btn {
     line-height: 1.6em;
 }
 
-.gold {;
+.gold {
     color: #DAA520;
 }
 
@@ -49,4 +49,9 @@ body, .btn {
 
 .panel-heading h3 {
     margin: .3em 0;
+}
+
+.face {
+    margin: 1em auto;
+    border-radius: 50%;
 }
