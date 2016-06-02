@@ -4,7 +4,8 @@ php: 5.6
 
 env:
     global:
-        - secure: uB2LNGTgU6fjjfpLVOXN2kgdJ4lcFirg9KqytJkSeTxIYTRaysmsEaPZzO+I/CqTr5FcKwMVXAHM63zqD7etIyaNHkTHqYkjZIz/vbgsqPOEZtrNNvCh8mmbEHi3bhYAIDy+zh/IeWKvfyAqwT/nGHFxAh9kqh40RaAXA3QUbQJa0p0Vy1PKkMW0KyfSoHSCZ+ASiYDRa2JhVQuSYmzDaA45KMq8MVsKYvn46wiyPWHtERTjvc7Np0q5nxUpPb0qBFMYlcPmhfa3bb/+Mw5+PpWg3QpBA9lBV5kHOcbM3Jwbp+WCFiNDz9imF1rWPmzMfGyYaRVtiPMRNExDytaS0mxvzbHUaLkFynWKX4V84ULIOMUiUeWSaAY9ehk74LIt79szBjMKLLcqFJyjeeBLDzxY1jQjoBM79C4pjJzIYOcTh6tQc53t1EMJUCQWtUmIldAPmb7s6FoOsR4Kw6V7a5qYeuab6tu/Y7Uosgssm17FyW+bFvQMMzsoYM5zzSoa7PMizE1caVDUh6gUx2l7HvNSTZk3sdW3lgju8Ey44t34RIPMD1jH3eYFi2kK7aesm+dgEYkVmZloDJ3Fyrhg8sHyY+meRZ0/85V1NsUpC41Gk36ajGi27w33zUwGLrj2Mp/+0PRsVt8uEKeDPgmFgdnTtURPTykCqxpa8jOUjp4=
+        - GH_REF: github.com/PhpPrague/phpprague.cz.git
+        - secure: eTkDdAIe3N26xNZiTOZ6tfeM5g7SE4zkC0dW+NM01rcfqTPsounuovW4NRx1boVJL7qbhPIRJ+4YBJ1GAbdbwhGXClLsvHAQ3Fd/1AXpM3jjqQDOAfwMKN85R+df3QExSGdXA0jSaDK3XzIoxid/RPhNRnYTwtgJmpYaEFduCAH5Zt14O1GLAh8VYzCYIsDqJpCRFG3X59JA09E/0BV066o8b9mrlllQKno4iVg8J8NO/tuKkfcUJV3VCyTPn7co+h/jqWd8qfrjfOZFTcZXBX0KG2QqV+tsyz4ZqnnsH3/UbZ6WtVdq2+zAHbQaqXo6J0lYPGNCSY7+CYQOpwxkYXV8ccCmfkZH6Lfamg1Hzmu/24MTaNLCuIi5lIFA8o4CTckxPSQ2GdOZNkOOhZ4IpL/OXoUWJzuZ7cvZbyEUT9H7YnvvONeL1ya/aeK0pTgeHRIMb8FqiY7V6vvhtkBxFwihzVG+jreFmnwjGHTSmiIgyIMbCbadnd1H30F7yZw4n4CJ3Gqa2P+LS3rWv66wvkwHvmca8DY5zmBqjbwy7IxNZ04S7QMsbO2Ca5YidGgv4WnAxLUAvkNIhiu+28LMTMVtcR4QZGDVMLcKlBpESUYzbk3avqRDIN8VnKeqDajzFMa8ViMybzpwln68yuvGbGk1X47VgVT7pF/drfQrwVs=
 
 before_script:
     - phpenv config-rm xdebug.ini
@@ -12,5 +13,4 @@ before_script:
     - composer update --prefer-source
 
 script:
-    - ./bin/deploy-gh-pages.sh
-    # - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
