@@ -2,8 +2,14 @@
 
 # Manual - http://wouterj.nl/2015/02/using-travis-to-build-your-sculpin-blog
 
+# If "travis" install fails on ruby, this helped. Read from the bottom:
+# http://stackoverflow.com/questions/30123456/install-travis-command-line-windows
+
+# Also this helped: https://github.com/travis-ci/travis.rb/issues/346
+
+
 # Build settings
-REPOSITORY="https://${GH_TOKEN}@github.com/PhpPrague/phpprague.cz.git"
+REPOSITORY="https://${GH_TOKEN}@${GH_REF}"
 
 # Git identity
 git config --global user.email "travis@travis-ci.org"
@@ -17,5 +23,4 @@ cd output_prod
 git init
 git add .
 git commit -m "Regenerated output"
-git push --force --quiet "${REPOSITORY}" master:gh-pages
- #> /dev/null 2>&1
+git push --force --quiet "${REPOSITORY}" master:gh-pages > /dev/null 2>&1
