@@ -46,3 +46,7 @@ body, .btn {
     vertical-align: middle;
     float: none;
 }
+
+.panel-heading h3 {
+    margin: .3em 0;
+}
