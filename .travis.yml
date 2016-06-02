@@ -3,14 +3,14 @@ language: php
 php: 5.6
 
 env:
-  global:
-    - GH_REF: github.com/PhpPrague/phpprague.cz.git
-    - secure: eTkDdAIe3N26xNZiTOZ6tfeM5g7SE4zkC0dW+NM01rcfqTPsounuovW4NRx1boVJL7qbhPIRJ+4YBJ1GAbdbwhGXClLsvHAQ3Fd/1AXpM3jjqQDOAfwMKN85R+df3QExSGdXA0jSaDK3XzIoxid/RPhNRnYTwtgJmpYaEFduCAH5Zt14O1GLAh8VYzCYIsDqJpCRFG3X59JA09E/0BV066o8b9mrlllQKno4iVg8J8NO/tuKkfcUJV3VCyTPn7co+h/jqWd8qfrjfOZFTcZXBX0KG2QqV+tsyz4ZqnnsH3/UbZ6WtVdq2+zAHbQaqXo6J0lYPGNCSY7+CYQOpwxkYXV8ccCmfkZH6Lfamg1Hzmu/24MTaNLCuIi5lIFA8o4CTckxPSQ2GdOZNkOOhZ4IpL/OXoUWJzuZ7cvZbyEUT9H7YnvvONeL1ya/aeK0pTgeHRIMb8FqiY7V6vvhtkBxFwihzVG+jreFmnwjGHTSmiIgyIMbCbadnd1H30F7yZw4n4CJ3Gqa2P+LS3rWv66wvkwHvmca8DY5zmBqjbwy7IxNZ04S7QMsbO2Ca5YidGgv4WnAxLUAvkNIhiu+28LMTMVtcR4QZGDVMLcKlBpESUYzbk3avqRDIN8VnKeqDajzFMa8ViMybzpwln68yuvGbGk1X47VgVT7pF/drfQrwVs=
+    global:
+        - GH_REF: github.com/PhpPrague/phpprague.cz.git
+        - secure: eTkDdAIe3N26xNZiTOZ6tfeM5g7SE4zkC0dW+NM01rcfqTPsounuovW4NRx1boVJL7qbhPIRJ+4YBJ1GAbdbwhGXClLsvHAQ3Fd/1AXpM3jjqQDOAfwMKN85R+df3QExSGdXA0jSaDK3XzIoxid/RPhNRnYTwtgJmpYaEFduCAH5Zt14O1GLAh8VYzCYIsDqJpCRFG3X59JA09E/0BV066o8b9mrlllQKno4iVg8J8NO/tuKkfcUJV3VCyTPn7co+h/jqWd8qfrjfOZFTcZXBX0KG2QqV+tsyz4ZqnnsH3/UbZ6WtVdq2+zAHbQaqXo6J0lYPGNCSY7+CYQOpwxkYXV8ccCmfkZH6Lfamg1Hzmu/24MTaNLCuIi5lIFA8o4CTckxPSQ2GdOZNkOOhZ4IpL/OXoUWJzuZ7cvZbyEUT9H7YnvvONeL1ya/aeK0pTgeHRIMb8FqiY7V6vvhtkBxFwihzVG+jreFmnwjGHTSmiIgyIMbCbadnd1H30F7yZw4n4CJ3Gqa2P+LS3rWv66wvkwHvmca8DY5zmBqjbwy7IxNZ04S7QMsbO2Ca5YidGgv4WnAxLUAvkNIhiu+28LMTMVtcR4QZGDVMLcKlBpESUYzbk3avqRDIN8VnKeqDajzFMa8ViMybzpwln68yuvGbGk1X47VgVT7pF/drfQrwVs=
 
 before_script:
-  - phpenv config-rm xdebug.ini
-  - composer self-update
-  - composer update --prefer-source
+    - phpenv config-rm xdebug.ini
+    - composer self-update
+    - composer update --prefer-source
 
 script:
-  - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
