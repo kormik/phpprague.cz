@@ -3,7 +3,7 @@
 # Manual - http://wouterj.nl/2015/02/using-travis-to-build-your-sculpin-blog
 
 # Build settings
-REPOSITORY="https://${GH_TOKEN}@github.com/PhpPrague/PhpPrague.cz.git"
+REPOSITORY="https://${GH_TOKEN}@github.com/PhpPrague/phpprague.cz.git"
 
 # Git identity
 git config --global user.email "travis@travis-ci.org"
@@ -11,6 +11,7 @@ git config --global user.name "Travis"
 
 # Generate API
 ./vendor/bin/sculpin generate --env=prod
+
 # Commit & push
 cd output_prod
 git init
