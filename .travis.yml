@@ -26,7 +26,8 @@ script:
     - git init
     - git add .
     - git commit -m "Regenerated output"
-    - git push --force --quiet "${REPOSITORY}" master:gh-pages > /dev/null 2>&1
+    - git push --force --quiet "${REPOSITORY}" master:gh-pages
+    # > /dev/null 2>&1
 
     #- ./bin/deploy-gh-pages.sh
     # - if [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then ./bin/deploy-gh-pages.sh; fi
