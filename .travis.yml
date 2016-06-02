@@ -12,7 +12,7 @@ before_script:
     - composer update --prefer-source
 
 script:
-    - REPOSITORY="https://${GH_TOKEN}@github.com/PhpPrague/phpprague.cz.git"
+    - REPOSITORY="https://$GH_TOKEN@github.com/PhpPrague/phpprague.cz.git"
 
     # Git identity
     - git config --global user.email "travis@travis-ci.org"
